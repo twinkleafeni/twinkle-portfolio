@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Afeni Elizabeth Twinkle — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fff5f8; --surface:#ffe3ec; --ink:#2e1226; --muted:#6e4a5e; --accent:#d6246e; --accent-ink:#fff; --line:#f1bfd1;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#1d0e17; --surface:#2d1623; --ink:#ffeaf2; --muted:#d3a9bd; --accent:#ff7fb0; --accent-ink:#2e1226; --line:#4a2539; color-scheme:dark;}
+}
+:root[data-theme="dark"]{--bg:#1d0e17; --surface:#2d1623; --ink:#ffeaf2; --muted:#d3a9bd; --accent:#ff7fb0; --accent-ink:#2e1226; --line:#4a2539; color-scheme:dark;}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.6}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0}
+header.hero{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(3rem,11vw,6.5rem);font-weight:800;letter-spacing:-.03em}
+.hero h1 span{display:block;color:var(--accent)}
+.hero p.role{font-family:var(--display);font-weight:500;font-size:1.1rem;margin:24px 0 0;color:var(--muted)}
+.hero p.meta{margin:8px 0 0;color:var(--muted)}
+nav{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:28px;font-family:var(--display);font-weight:700}
+nav a{text-decoration:none;color:var(--ink);border-bottom:2px solid var(--accent)}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);font-weight:800;margin-bottom:24px;letter-spacing:-.02em}
+p{margin:0 0 16px;max-width:62ch}
+.tl{list-style:none;margin:0;padding:0;border-left:3px solid var(--accent)}
+.tl li{position:relative;padding:0 0 32px 24px}
+.tl li::before{content:"";position:absolute;left:-9px;top:9px;width:15px;height:15px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.tl .when{font-family:var(--display);font-weight:700;color:var(--accent);font-size:.95rem}
+.tl h3{font-size:1.3rem;margin:2px 0 4px}
+.tl .org{color:var(--muted);font-style:italic;margin-bottom:8px}
+.tl p{margin:0;max-width:60ch}
+.proj{display:grid;grid-template-columns:1fr;gap:0}
+.proj article{padding:22px 0;border-top:1px solid var(--line)}
+.proj article:first-child{border-top:0;padding-top:0}
+.proj h3{font-size:1.4rem;margin-bottom:4px}
+.tag{display:inline-block;font-family:var(--display);font-weight:700;font-size:.85rem;background:var(--surface);color:var(--ink);padding:3px 12px;border-radius:999px;margin-bottom:10px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.skills li{font-family:var(--display);font-weight:500;background:var(--surface);padding:8px 16px;border-radius:999px}
+.contact a.btn{display:inline-block;font-family:var(--display);font-weight:700;background:var(--accent);color:var(--accent-ink);text-decoration:none;padding:12px 24px;border-radius:999px;margin:0 12px 12px 0}
+footer{padding:32px 0;color:var(--muted);font-size:.9rem}
+@media (min-width:700px){.proj{grid-template-columns:1fr 1fr;gap:0 48px}.proj article:nth-child(2){border-top:0;padding-top:0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <h1>Afeni Elizabeth <span>Twinkle</span></h1>
+  <p class="role">Chemical Engineering student, STEM advocate, front-end developer and aspiring civic leader</p>
+  <p class="meta">200 Level, University of Lagos (UNILAG), Lagos, Nigeria</p>
+  <nav aria-label="Sections"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I study Chemical Engineering at the University of Lagos, and I’m drawn to technology, STEM, web development, youth development and community building.</p>
+  <p>Robotics competitions, digital skills training, volunteering and team projects have taught me to value teamwork, creativity and problem-solving. I like exploring ideas, learning new skills and applying what I know to practical challenges.</p>
+  <p>I’m most interested in opportunities that help young people learn, collaborate and use their abilities to create positive change in their communities. As I grow academically and professionally, I want to combine my technical interests with civic leadership and community-focused work.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience and achievements</h2>
+  <ol class="tl">
+    <li>
+      <div class="when">2025</div>
+      <h3>World Robot Olympiad Nigeria, Future Engineers</h3>
+      <div class="org">Team Botmax Innovators</div>
+      <p>Our team won the Future Engineers category. The win was an important milestone in my STEM journey, and it led the Arc-Lights Foundation to commit to supporting my tertiary education.</p>
+    </li>
+    <li>
+      <div class="when">2026</div>
+      <h3>Front-end website development training</h3>
+      <div class="org">GESP, Yaba College of Technology, Fourth Cohort</div>
+      <p>Completed training in HTML, CSS, Bootstrap, JavaScript and responsive web design, alongside teamwork, communication and problem-solving.</p>
+    </li>
+    <li>
+      <div class="when">11 July 2026</div>
+      <h3>Volunteer, World Robot Olympiad Nigeria</h3>
+      <p>Helped organise the event the year after competing in it, which gave me a chance to contribute to a STEM event from the organising side.</p>
+    </li>
+    <li>
+      <div class="when">2026</div>
+      <h3>Dangote Cement Challenge</h3>
+      <div class="org">Team Methklin</div>
+      <p>Took part as a team member. We did not qualify for the next stage.</p>
+    </li>
+    <li>
+      <div class="when">2026</div>
+      <h3>Business Development Officer Intern</h3>
+      <div class="org">Ridgeview Innovations Hub Ltd</div>
+      <p>Started an internship with an organisation focused on practical digital skills, tools and solutions that support productivity, employability and business growth.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="proj">
+    <article>
+      <span class="tag">Web development</span>
+      <h3>Wild Guard</h3>
+      <p>A multi-page conservation and e-commerce website built with HTML, CSS and Bootstrap.</p>
+    </article>
+    <article>
+      <span class="tag">Community, in development</span>
+      <h3>Bridge</h3>
+      <p>I co-initiated Bridge, an early-stage idea to bring students together to exchange ideas and learn from each other’s knowledge and experiences. It is still being developed and has not launched yet.</p>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills"><li>HTML</li><li>CSS</li><li>Bootstrap</li><li>JavaScript</li><li>Responsive design</li><li>Teamwork</li><li>Communication</li><li>Problem-solving</li></ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Open to conversations about STEM, youth development and community initiatives.</p>
+  <a class="btn" href="mailto:twinkleafeni@gmail.com">Email me</a>
+  <a class="btn" href="https://hey-twinkle.vercel.app/">Visit my website</a>
+</section>
+<footer>Afeni Elizabeth Twinkle, Lagos, Nigeria</footer>
+</div>
+</body>
+</html>
